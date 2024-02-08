@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sample.css">
+    
+</head>
+<body>
+    <div class="main_container" >
+        <h2>Leave Request Form</h2><br>    
+            <div class="card text-bg-dark">
+                <form>
+                    <div class="form-group">
+                        <label for="fromdate">From Date</label>
+                        <input type="date" [(ngModel)]="fromdate" [ngModelOptions]="{standalone: true}"class="form-control" id="name" name="name" placeholder="Enter Standard">
+                    <!-- toDate -->
+                        <label for="todate">To Date</label>
+                        <input type="date" [(ngModel)]="todate" [ngModelOptions]="{standalone: true}"class="form-control" id="standard" name="standard" placeholder="Enter Standard">
+                    </div>
+                    <div class="typeOfLeave">
+                        <label for="tol">Type of Leave</label>
+                
+                        <select name="lv-type" id="text">
+                            <option value="chand">Paid Leave</option>
+                            <option value="pasha">Sick Leave</option>
+                            <option value="howare">Unpaid</option>
+                            <option value="howare">Bereaverement Leave</option>
+                            <option value="howare">Floater Leave</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="note">Note</label>
+                        <input type="text" [(ngModel)]="note" [ngModelOptions]="{standalone: true}"class="form-control" id="standard" name="standard" placeholder="Type here">
+                    </div>
+                    <div class="form-group">
+                        <label for="notify">Notify To </label>
+                        <input type="text" [(ngModel)]="notify" [ngModelOptions]="{standalone: true}"class="form-control" id="school" name="school" placeholder="Search Employee">
+                    </div>
+                    <button type="submit" class="btn btn-primary mt-4" (click)="register()">Submit</button>
+                    </form>
+            </div>
+    </div>
+</body>
+</html>

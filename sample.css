@@ -1,0 +1,28 @@
+* {
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'poppins', sans-serif;
+    
+}
+
+.body{
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.main_container{
+    margin: 25px;
+    padding: 10px;
+    background-color:lightsteelblue;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.form-group{
+    box-sizing: content-box;
+}

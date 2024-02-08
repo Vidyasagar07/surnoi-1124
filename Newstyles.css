@@ -1,0 +1,48 @@
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    
+}
+
+body
+{
+  background-color: rgb(204, 206, 206);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container
+{
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1150px;
+  margin: 50px;
+  background:white;
+  display:grid;
+  grid-template-columns: 2fr 1fr;
+  box-shadow: 0 35px 55px rgba(0,0,0,0, 1);
+  font-family: 'Rubik', sans-serif;
+}
+.container .left_side
+{
+  position: relative;
+  background-color: white;
+  padding: 50px; 
+}  
+
+.container .right_side
+{
+  position: relative;
+  background-color: rgb(145, 39, 39);
+  padding: 40px;
+}
+
+.profileimg{
+    width: 150px;
+    border-radius: 75px;
+}

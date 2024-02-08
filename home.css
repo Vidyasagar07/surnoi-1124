@@ -1,0 +1,259 @@
+.container{
+    
+    margin-left:150px;
+    margin-right:150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0; Add this to remove default margin */
+    /* height: 100%; */
+}
+
+
+
+
+.main{
+    /* background-image: url(calculator.jpg); */
+    /* margin-left:0%; */
+    border:2px solid black ;
+    border-radius:10px;
+}
+
+.container1{
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    /* text-align: center; */
+    /* margin: 20px; */
+    /* margin-left: 70px; */
+    font-family: Arial,Helvetica,Arial,sans-serif;
+}
+
+.container2{
+    margin-left: 70px;
+    margin-bottom:20px;
+    position: relative;
+    justify-content: center;
+    font-family: Arial,Helvetica,Arial,sans-serif;
+}
+
+.line1{
+    margin:5px;
+    font-style: italic;
+   
+}
+
+.line2{
+    font-weight: bold;
+    margin:5px;
+    padding-top: 5px;
+}
+
+checkedPoints,mark{
+    background-color: orange;
+    color: white;
+    border-radius: 2px;
+    font-size: smaller;
+}
+
+
+
+
+
+.main-heading{
+    margin-bottom: 20px;
+    margin-left: 60px;
+}
+.box1
+{
+    display: flex;
+    margin-left: 60px;
+}
+.box3{
+    display: flex;
+    margin-left: 60px;
+}
+.box2 , .box4{
+    margin-left: 60px;
+}
+.rightside
+{
+    margin-left: 50px;
+}
+.heading
+{
+    
+    font-size: 1.0em;
+    /* color: white;
+    background-color: black; */
+    font-family: Arial,Helvetica,Arial,sans-serif;
+    font-weight: 550;
+    margin-bottom: 8px;
+    /* margin-top: 10px; */
+}
+.infocircle
+{
+    margin-left: 15px;
+}
+.input-field
+{
+    padding: 6px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    opacity: 0.5;
+    
+}
+input:focus{
+    outline: none;
+    border: 2px solid skyblue;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+    
+}
+
+/* #button{
+    position: relative;
+    margin-top:15px;
+    margin-left:200px;
+    padding: 10px 30px 10px 30px; */
+    /* top: 100px; */
+    /* font-size: large;
+     color: white;
+     background: rgb(92, 236, 92);
+     border: 0;
+     border-radius:5%;
+     box-shadow: 0 5px 0 greenyellow; */
+   
+ /* }
+ #button:hover{
+     cursor: pointer;
+ } */
+
+
+.button{
+    position: relative;
+    margin-top:15px;
+    margin-left:280px;
+    padding: 10px 30px 10px 30px;
+    font-size: large;
+    color: white;
+    background: rgb(31, 225, 31);
+    /* background: rgb(92, 236, 92); */
+    border: 0;
+    border-radius:5%;
+    box-shadow: 0 5px 0 rgb(179, 239, 89);
+}
+button:hover{
+    cursor: pointer;
+}
+
+ .container3{
+    padding: 40px;
+}
+
+.border{
+    border: 1px solid grey;
+}
+.Tax-Calculator-page-container{
+    position: relative;
+    margin-right:5%;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 1px 5px 10px ;
+    
+}
+
+.Tax-Calculator-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #f9f9f9;
+    padding: 10px;
+
+}
+
+.end{
+    text-align: end;
+}
+.total-income{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: white;
+    padding: 10px;
+}
+.up{
+    display: none;
+}
+.exemption{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #f9f9f9;
+    padding: 10px;
+    padding-left: 8px;
+
+   
+}
+.ex-droplist{
+    display: none;
+}
+.exam-cont:hover .ex-droplist{
+    display: block;
+}
+.exam-cont:hover .up{
+ 
+    display: block;
+}
+.exam-cont:hover .down{
+    display: none;
+}
+.exam-cont:hover .para{
+    display: none;
+}
+.taxable{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 10px;
+    padding: 10px;
+}
+.tax{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #f9f9f9;
+    padding: 10px;
+    padding-left: 8px;
+}
+.ex-droplist div{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+padding: 10px;
+}
+.dropdownlist{
+    background-color: #f9f9f9;
+   
+}
+.exem-drop{
+    display: flex;
+}
+.dropdown-list1 div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+}
+.dropdown-list1{
+    display: none;
+}
+.tax-dropdown1:hover .dropdown-list1{
+   display:block;    
+}
+.tax-dropdown1:hover .up{
+    display: block;
+}
+.tax-dropdown1:hover .down{
+    display: none;
+}
+.tax-dropdown1:hover .paragraph {
+    display: none;
+}
+
+
+
+
